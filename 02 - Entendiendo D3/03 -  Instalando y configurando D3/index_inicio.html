@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html ng-app="myApp">
-
-<head>
-    <meta charset="utf-8">
+  <head>
+    <meta charset="utf-8" />
     <title>Instalando D3.js</title>
-</head>
+    <script src="bower_components/d3/d3.js"></script>
+  </head>
 
-<body>
-   
-   
-</body>
-
-</html> 
+  <body>
+    <script>
+      d3.select("body")
+        .append("h1")
+        .text("Hola mundo!");
+    </script>
+  </body>
+</html>

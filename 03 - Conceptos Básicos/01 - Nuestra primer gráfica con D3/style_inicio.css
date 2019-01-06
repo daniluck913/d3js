@@ -1,8 +1,8 @@
-.barras div{
-	font-size: 10px;
-	background-color: green;
-	text-align: right;
-	padding: 8px;
-	margin: 3px;
-	color: white;
+.barras div {
+  font-size: 9px;
+  background-color: green;
+  text-align: right;
+  padding: 4px;
+  margin: 2px;
+  color: white;
 }
